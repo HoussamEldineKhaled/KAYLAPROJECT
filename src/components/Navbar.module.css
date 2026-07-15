@@ -1,0 +1,12 @@
+
+
+
+.Navigatoral{
+    background-color: rgba(49, 46, 46, 0.892);
+    color: whitesmoke;
+    border-color: brown;
+    width:100%;
+    display: flex;
+    position: sticky;
+
+}
