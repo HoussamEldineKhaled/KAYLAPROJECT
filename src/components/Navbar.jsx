@@ -5,8 +5,16 @@ function Navbar(){
     const [open, setOpen] = useState(false)
 
     return(
-    <nav className={styles.Navigatoral}>
-        <h3>We continue from here</h3>
+    <nav className="navbar">
+        <a href="/">
+            Logo and Site name goes here
+        </a>
+        <ul>
+            <li><a href="/"></a></li>
+            <li><a href="/"></a></li>
+            <li><a href="/"></a></li>
+            <li><a href="/"></a></li>
+        </ul>
 
     </nav>);
 }
