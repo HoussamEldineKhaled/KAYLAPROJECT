@@ -1,0 +1,19 @@
+
+
+.navbar{
+    background-color: rgba(7, 7, 12, .72);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.navbar ul{
+
+}
+
+.navbar a{
+    color: rgba(255, 247, 239, .88);
+}

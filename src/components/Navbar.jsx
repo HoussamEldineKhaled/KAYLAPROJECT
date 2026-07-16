@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from './Navbar.module.css'
+import './Nav.css'
 
 function Navbar(){
     const [open, setOpen] = useState(false)
@@ -10,10 +10,14 @@ function Navbar(){
             Logo and Site name goes here
         </a>
         <ul>
-            <li><a href="/"></a></li>
-            <li><a href="/"></a></li>
-            <li><a href="/"></a></li>
-            <li><a href="/"></a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About Me</a></li>
+            <li>
+            <a href="/">
+                More navs to be added
+            </a>
+            </li>
+            <li><a href="/">Contact Me</a></li>
         </ul>
 
     </nav>);
