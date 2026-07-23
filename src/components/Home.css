@@ -1,5 +1,6 @@
 
 .intro-frame{
+    display: flexbox;
     position:relative;
     background-color: rgba(7, 7, 13, .76);
     border-radius: 15px;
@@ -12,6 +13,7 @@
 }
 .intro-frame .intro-topbar{
     display: flex;
+    height: 10%;
     color: aliceblue;
     font-family:'Courier New', Courier, monospace;
     justify-content: space-between;
@@ -36,4 +38,35 @@
     display: inline-block;
     box-shadow: 0px 0px 10px rgba(250, 31, 31, 0.767), 0px 0px 10px rgba(246, 224, 224, 0.74);
 }
+
+.intro-frame .intro-content{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "box-1 box-1"
+    "box-1 box-1"
+    "box-2 box-3"
+    "box-4 box-4" 
+    ;
+    height: 90%;
+    background-color: aqua;
+    gap: 1rem;
+
+}
+.grid-element{
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro-frame .intro-content .grid-element img{
+    height: 300px;
+    width: 300px;
+}
+
+
 

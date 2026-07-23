@@ -9,7 +9,10 @@ function Home(){
                     <span>00:00:00:01</span>
                 </div>
                 <div className="intro-content">
-                    <img src={title}/>
+                    <div className='grid-element' style={{gridArea: 'box-1'}}><img className='grid-items' src={title}/></div>
+                    <div className='grid-element' style={{gridArea: 'box-2'}}>lorum ipsum</div>
+                    <div className='grid-element' style={{gridArea: 'box-3'}}>lorum ipsum</div>
+                    <div className='grid-element' style={{gridArea: 'box-4'}}><button><span>▶</span> <span>Play</span></button></div>
                 </div>
             </div>
     )
