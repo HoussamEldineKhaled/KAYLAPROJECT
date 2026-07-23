@@ -42,8 +42,8 @@
 .intro-frame .intro-content{
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
     grid-template-areas: 
     "box-1 box-1"
     "box-1 box-1"
@@ -51,7 +51,6 @@
     "box-4 box-4" 
     ;
     height: 90%;
-    background-color: aqua;
     gap: 1rem;
 
 }
@@ -64,8 +63,11 @@
 }
 
 .intro-frame .intro-content .grid-element img{
-    height: 300px;
-    width: 300px;
+    height: 80%;
+    width: 50%;
+    min-height: 200px;
+    min-width: 200px;
+    padding-top: 20px;
 }
 
 
