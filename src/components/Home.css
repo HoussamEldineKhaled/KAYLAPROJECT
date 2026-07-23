@@ -4,6 +4,7 @@
     background-color: rgba(7, 7, 13, .76);
     border-radius: 15px;
     border: 1px solid white;
+    box-shadow: 8px 5px 20px rgb(1, 12, 20);
     min-width: 500px;
     min-height: 350px;
     width: 40%;
@@ -18,5 +19,21 @@
     align-items: center;
     padding: 0 10px;
     border-bottom: 1px solid white;
+}
+
+.intro-frame .intro-topbar .rec-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+}
+
+.red-dot{
+    width: 10px;
+    height: 10px;
+    background-image: radial-gradient(circle at center,rgb(249, 131, 131) 0%, rgb(156, 29, 29) 90%);
+    border-radius: 100%;
+    display: inline-block;
+    box-shadow: 0px 0px 10px rgba(250, 31, 31, 0.767), 0px 0px 10px rgba(246, 224, 224, 0.74);
 }
 
