@@ -2,7 +2,7 @@ import { useState } from "react";
 import './Nav.css'
 import logo from './assets/kas-extras-wordmark.png'
 function Navbar(){
-    const [open, setOpen] = useState(false)
+    
 
     return(
     <nav className="navbar">
@@ -16,11 +16,14 @@ function Navbar(){
         </a>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/">About Me</a></li>
+            <li className="projects"><a href="/">About Me</a></li>
             <li>
-            <a href="/">
-                More navs to be added
-            </a>
+            <a href="/" >Projects ▾</a>
+            <div className="content">
+                <a href="/">Films</a>
+                <a href="/">Sound Design</a>
+                <a href="/">Color Grading</a>
+            </div>
             </li>
             <li><a href="/">Contact Me</a></li>
         </ul>

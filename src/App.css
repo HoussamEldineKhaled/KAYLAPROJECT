@@ -6,3 +6,9 @@ body {
     margin: 0;
     background-color: rgb(28, 28, 28);
 }
+
+body .principle_background{
+    display:grid;
+    place-items: center;
+    height: 100vh;
+}
