@@ -9,10 +9,22 @@ function Home(){
                     <span>00:00:00:01</span>
                 </div>
                 <div className="intro-content">
-                    <div className='grid-element' style={{gridArea: 'box-1'}}><img className='grid-items' src={title}/></div>
-                    <div className='grid-element' style={{gridArea: 'box-2'}}>lorum ipsum</div>
-                    <div className='grid-element' style={{gridArea: 'box-3'}}>lorum ipsum</div>
-                    <div className='grid-element' style={{gridArea: 'box-4'}}><button><span>▶</span> <span>Play</span></button></div>
+                    <div className='grid-element' style={{gridArea: 'box-1'}}>
+                    <button className='logo-button'><img className='grid-items' src={title}/></button>
+                    <span className='under-logo'><span className='red-dot'></span> <span><h5>VHS DECK MEETS EDITING TIMELINE</h5></span></span>
+                    </div>
+                    <div className='grid-element' style={{gridArea: 'box-2'}}>
+                        <h1 className='instruction'>Click the Logo to Begin</h1>
+                        <p className='description'>A late-night post-production portfolio for Kayla Slocumb — editor, sound designer, and colorist.</p>
+                    </div>
+                    <div className='grid-element' style={{gridArea: 'box-3'}}>
+                        <div className='vhs-deck'>
+                            <div className='deck-screen'>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
     )

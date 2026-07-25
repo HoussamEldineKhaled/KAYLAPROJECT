@@ -1,19 +1,16 @@
 
 .intro-frame{
-    display: flexbox;
     position:relative;
-    background-color: rgba(7, 7, 13, .76);
+    background-color: rgba(7, 7, 13, 0.534);
     border-radius: 15px;
     border: 1px solid white;
-    box-shadow: 8px 5px 20px rgb(1, 12, 20);
-    min-width: 500px;
-    min-height: 350px;
-    width: 40%;
-    height: 95%
+    box-shadow: 8px 5px 20px rgb(0, 8, 13);
+    width: 570px;
+    height: 630px;
 }
 .intro-frame .intro-topbar{
     display: flex;
-    height: 10%;
+    height: 5%;
     color: aliceblue;
     font-family:'Courier New', Courier, monospace;
     justify-content: space-between;
@@ -46,29 +43,87 @@
     grid-auto-columns: 1fr;
     grid-template-areas: 
     "box-1 box-1"
-    "box-1 box-1"
     "box-2 box-3"
-    "box-4 box-4" 
     ;
-    height: 90%;
-    gap: 1rem;
-
+    height: 95%;
+    gap: 0.5rem;
 }
 .grid-element{
     display: flex;
-    background-color: bisque;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-
+    justify-content:center;
+    text-align: center;
+    color: azure;
 }
 
-.intro-frame .intro-content .grid-element img{
-    height: 80%;
-    width: 50%;
+.intro-frame .intro-content .grid-element .logo-button{
+    height: 85%;
+    width: 60%;
     min-height: 200px;
     min-width: 200px;
-    filter: drop-shadow(0px 0px 20px blue, 0px 0px 20px rgb(247, 7, 47));
+    background-color: transparent;
+    border: none;
+}
+
+.intro-frame .intro-content .grid-element .logo-button img{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(10px 0px 10px rgb(78, 240, 237) ) drop-shadow(-10px 0px 10px rgb(244, 76, 46));
     padding-top: 20px;
 }
 
+.intro-frame .intro-content .grid-element .under-logo{
+    display: flex;
+    color: aqua;
+        font-family: Inter,
+                ui-sans-serif,
+                system-ui,
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
 
+
+.intro-frame .intro-content .grid-element .instruction{
+        font-family: Inter,
+                ui-sans-serif,
+                system-ui,
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                sans-serif;
+        font-weight:1000;
+
+}
+
+.intro-frame .intro-content .grid-element .description{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+
+.intro-frame .intro-content .grid-element .vhs-deck{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    height: 100%;
+    width:  80%;
+    border: 1px solid rgba(147, 145, 145, 0.451);
+    box-shadow: 4px 5px 20px black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+.intro-frame .intro-content .grid-element .deck-screen{
+    height: 60%;
+    width: 80%;
+    border: 1px solid rgba(159, 157, 157, 0.684);
+    border-radius: 20px;
+    background-color: black;
+}
