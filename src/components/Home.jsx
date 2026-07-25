@@ -20,7 +20,9 @@ function Home(){
                     <div className='grid-element' style={{gridArea: 'box-3'}}>
                         <div className='vhs-deck'>
                             <div className='deck-screen'>
-                                
+                                <p>PLAY 00:00:03:21</p>
+                                <div className='tracking'><span></span></div>
+                                <p>TRACKING · RENDERING · FINAL CUT ENERGY</p>
                             </div>
                         </div>
                     </div>
