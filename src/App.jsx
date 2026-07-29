@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+import Open from './components/Open'
 import Home from './components/Home'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='principle_background'>
+    <>
       <Home/>
-    </div>
+    </>
   )
 }
 

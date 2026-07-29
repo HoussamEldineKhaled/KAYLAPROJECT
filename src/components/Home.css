@@ -1,149 +1,85 @@
-
-.intro-frame{
-    position:relative;
-    background-color: rgba(7, 7, 13, 0.534);
-    border-radius: 15px;
-    border: 1px solid white;
-    box-shadow: 8px 5px 20px rgb(0, 8, 13);
-    width: 570px;
-    height: 630px;
-}
-.intro-frame .intro-topbar{
-    display: flex;
-    height: 5%;
-    color: aliceblue;
-    font-family:'Courier New', Courier, monospace;
-    justify-content: space-between;
-    gap: 2rem;
-    align-items: center;
-    padding: 0 10px;
-    border-bottom: 1px solid white;
-}
-
-.intro-frame .intro-topbar .rec-section{
-    display: flex;
-    justify-content: space-between;
-    gap: 1em;
-    align-items: center;
-}
-
-.red-dot{
-    width: 10px;
-    height: 10px;
-    background-image: radial-gradient(circle at center,rgb(249, 131, 131) 0%, rgb(156, 29, 29) 90%);
-    border-radius: 100%;
-    display: inline-block;
-    box-shadow: 0px 0px 10px rgba(250, 31, 31, 0.767), 0px 0px 10px rgba(246, 224, 224, 0.74);
-}
-
-.intro-frame .intro-content{
+.homepage-detail{
+    background-color: rgb(21, 207, 92);
     display: grid;
     grid-auto-rows: 1fr;
     grid-auto-columns: 1fr;
     grid-template-areas: 
-    "box-1 box-1"
-    "box-2 box-3"
-    ;
-    height: 95%;
-    gap: 0.5rem;
-}
-.grid-element{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    text-align: center;
-    color: azure;
-}
-
-.intro-frame .intro-content .grid-element .logo-button{
-    height: 85%;
-    width: 60%;
-    min-height: 200px;
-    min-width: 200px;
-    background-color: transparent;
-    border: none;
-}
-
-.intro-frame .intro-content .grid-element .logo-button img{
-    height: 100%;
+    "box-1 box-2"
+    "box-3 box-3";
+    place-items: center;
+    position: relative;
+    height: 100vh;
     width: 100%;
-    filter: drop-shadow(10px 0px 10px rgb(78, 240, 237) ) drop-shadow(-10px 0px 10px rgb(244, 76, 46));
-    padding-top: 20px;
+    z-index: -1;
+    color: whitesmoke;
 }
 
-.intro-frame .intro-content .grid-element .under-logo{
-    display: flex;
-    color: aqua;
-        font-family: Inter,
-                ui-sans-serif,
-                system-ui,
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                sans-serif;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-}
-
-
-.intro-frame .intro-content .grid-element .instruction{
-        font-family: Inter,
-                ui-sans-serif,
-                system-ui,
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                sans-serif;
-        font-weight:1000;
-
-}
-
-.intro-frame .intro-content .grid-element .description{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: smaller;
-}
-
-.intro-frame .intro-content .grid-element .vhs-deck{
+.homepage-detail .logo-buttons{
+    background-color: rgba(58, 57, 57, 0.79);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5px;
     height: 100%;
-    width:  80%;
-    border: 1px solid rgba(147, 145, 145, 0.451);
-    box-shadow: 4px 5px 20px black;
-    border-radius: 20px;
-    margin-bottom: 10px;
+    width: 300px;
+    padding : 5px;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px black;
+    
+}
+
+.homepage-detail .logo-buttons img{
+    width: 90%;
+    height: 90%;
 }
 
 
-.intro-frame .intro-content .grid-element .deck-screen{
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+
+.homepage-detail .logo-buttons .client-name{
+    display: block;
+    font-size: 1.25rem;
     font-family: Inter,
         ui-sans-serif,
         system-ui,
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
-        sans-serif; ;
-    justify-content: center;
-    font-size: small;
-    height: 60%;
-    width: 80%;
-    border: 1px solid rgba(159, 157, 157, 0.684);
-    border-radius: 20px;
-    background-color: black;
+        sans-serif;
+    font-weight: bold;
+    
 }
 
-.intro-frame .intro-content .grid-element .deck-screen .tracking{
-    width: 100%;
-    height: 10px;
-    background-color: rgb(112, 112, 112);
-    border-radius: 10px;
+.homepage-detail .logo-buttons .client-titles{
+    display: block;
+    font-size: 0.7rem;
+    font-family: Inter,
+            ui-sans-serif,
+            system-ui,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            sans-serif;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+}
+
+
+.homepage-detail .logo-buttons .to-about-me{
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    width: 110px;
+    background-image: linear-gradient(to right, rgba(255, 111, 145, .96), rgba(255, 138, 92, .94));
+    font-weight: bold;
+}
+
+.homepage-detail .editing-reel-container{
+    background-color: rgba(58, 57, 57, 0.585);
+    height: 140px;
+    width: 100px;
+}
+
+.homepage-detail .photo-container{
+    background-color: black;
+    
 }

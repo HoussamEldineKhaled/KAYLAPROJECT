@@ -1,0 +1,67 @@
+
+.principle-background{
+        display: grid;
+        place-items: center;
+        height: 100vh;
+}
+
+.back-video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.intro-frame{
+    position:relative;
+    background-color: rgba(7, 7, 13, 0.534);
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 8px 5px 20px rgb(0, 8, 13);
+    width: 570px;
+    height: 465px;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    "box-1"
+    "box-2"
+    ;
+    gap: 0.5rem;
+}
+
+.grid-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    color: azure;
+}
+
+.grid-element .logo-button{
+    height: 100%;
+    width: 60%;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: transparent;
+    border: none;
+}
+
+.intro-frame .grid-element .logo-button img{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(10px 0px 10px rgb(78, 240, 237) ) drop-shadow(-10px 0px 10px rgb(244, 76, 46));
+    padding-top: 20px;
+}
+
+.intro-frame .grid-element .instruction{
+        font-family: 'Raleway', sans-serif;
+        font-weight:1000;
+        font-size: 40px;
+
+}

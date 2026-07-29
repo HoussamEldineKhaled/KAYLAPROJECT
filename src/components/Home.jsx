@@ -1,34 +1,31 @@
-import './Home.css'
+import Navbar from "./Navbar"
 import title from './assets/kas-extras-wordmark.png'
-function Home(){
+import './Home.css'
+import React from "react"
+import Foot from "./foot"
+
+function Home() {
+
+
     return(
-            <div className="intro-frame">
-                <div className="intro-topbar">
-                    <span className='rec-section'><span className='red-dot'></span> <span><p>REC . KAS_EXTRAS_SETUP</p></span></span>
-                    
-                    <span>00:00:00:01</span>
-                </div>
-                <div className="intro-content">
-                    <div className='grid-element' style={{gridArea: 'box-1'}}>
-                    <button className='logo-button'><img className='grid-items' src={title}/></button>
-                    <span className='under-logo'><span className='red-dot'></span> <span><h5>VHS DECK MEETS EDITING TIMELINE</h5></span></span>
-                    </div>
-                    <div className='grid-element' style={{gridArea: 'box-2'}}>
-                        <h1 className='instruction'>Click the Logo to Begin</h1>
-                        <p className='description'>A late-night post-production portfolio for Kayla Slocumb — editor, sound designer, and colorist.</p>
-                    </div>
-                    <div className='grid-element' style={{gridArea: 'box-3'}}>
-                        <div className='vhs-deck'>
-                            <div className='deck-screen'>
-                                <p>PLAY 00:00:03:21</p>
-                                <div className='tracking'><span></span></div>
-                                <p>TRACKING · RENDERING · FINAL CUT ENERGY</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
+    <div>
+        <Navbar />
+        <div className="homepage-detail">
+            <div className="logo-buttons" style={{gridAreas:'box-1'}}>
+                <img src={title}/>
+                <p className="client-name">Kayla Slocumb</p>
+                <p className="client-titles">Editor • Sound Designer • Colorist</p>
+                <button className="to-about-me">Meet the Artist</button>
             </div>
+            <div className="editing-reel-container" style={{gridAreas:'box-2'}}></div>
+            <div className="photo-container" style={{gridArea: 'box-3'}}>
+                <h1>On set, in the timeline, and somewhere between the magic.</h1>
+                <div className="photo-gallery"></div>
+            </div>
+        </div>
+        <Foot/>
+    </div>
     )
 }
-export default Home;
+
+export default Home
