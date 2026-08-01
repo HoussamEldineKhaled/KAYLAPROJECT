@@ -11,7 +11,7 @@
     gap: 2rem;
     padding: 0 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 1px 1px 10px rgb(73, 20, 130), 1px 1px 20px rgb(130, 25, 140);
+    box-shadow: 0px -1px 20px rgb(116, 50, 185), 0px 1px 20px rgb(130, 25, 140);
 }
 
 .navbar ul{

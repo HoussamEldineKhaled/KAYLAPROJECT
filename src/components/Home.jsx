@@ -19,8 +19,13 @@ function Home() {
                 <button className="to-about-me">Meet the Artist</button>
             </div>
             <div className="editing-reel-container" style={{gridAreas:'box-2'}}>
-                <p><span></span> Featured Reel</p>
-                
+                <p className="reel-title"><span className="red-dot"></span> Featured Reel</p>
+                <div className="video-frame">
+                    <video>
+                        <source></source>
+                    </video>
+                </div>
+                <button className="projects-button">Check Out the Projects</button>
             </div>
             <div className="photo-container" style={{gridArea: 'box-3'}}>
                 <h1>On set, in the timeline, and somewhere between the magic.</h1>
