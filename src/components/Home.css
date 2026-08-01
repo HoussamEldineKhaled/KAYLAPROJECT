@@ -82,8 +82,11 @@
 
 .homepage-detail .editing-reel-container{
     background-color: rgba(58, 57, 57, 0.585);
-    height: 140px;
-    width: 100px;
+    height: 80%;
+    width: 400px;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px black;
 }
 
 .homepage-detail .photo-container{
