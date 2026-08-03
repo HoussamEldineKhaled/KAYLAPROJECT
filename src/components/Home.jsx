@@ -19,7 +19,7 @@ function Home() {
                 <button className="to-about-me">Meet the Artist</button>
             </div>
             <div className="editing-reel-container" style={{gridAreas:'box-2'}}>
-                <p className="reel-title"><span className="red-dot"></span> Featured Reel</p>
+                <div className="editing-reel-title"><span className="red-dot"></span><p className="reel-title"> Featured Reel </p></div>
                 <div className="video-frame">
                     <video>
                         <source></source>
