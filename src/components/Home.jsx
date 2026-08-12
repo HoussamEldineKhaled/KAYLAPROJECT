@@ -5,6 +5,7 @@ import React from "react"
 import Foot from "./foot"
 
 function Home() {
+    
 
 
     return(
@@ -30,10 +31,6 @@ function Home() {
             <div className="photo-container" style={{gridArea: 'box-3'}}>
                 <h1>On set, in the timeline, and somewhere between the magic.</h1>
                 <div className="photo-gallery">
-                    <img/>
-                    <img/>
-                    <img/>
-                    <img/>
                 </div>
             </div>
             

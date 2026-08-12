@@ -20,9 +20,9 @@ function Navbar(){
             <li>
             <a href="/" >Projects ▾</a>
             <div className="content">
-                <a href="/">Films</a>
-                <a href="/">Sound Design</a>
-                <a href="/">Color Grading</a>
+                <div className="project-links"><a href="/">Films</a></div>
+                <div className="project-links"><a href="/">Sound Design</a></div>
+                <div className="project-links"><a href="/">Color Grading</a></div>
             </div>
             </li>
             <li><a href="/">Contact Me</a></li>
