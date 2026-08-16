@@ -32,7 +32,7 @@ function Home() {
             <div className="photo-container" style={{gridArea: 'box-3'}}>
                 <h1>On set, in the timeline, and somewhere between the magic.</h1>
                 <div className="photo-gallery">
-                    {images.map((image, i) =>  <img className="photo-list" key={i} src={image}/>)}
+                    {images.map((image, i) =>  <img className="photo-list" key={i} src={image} alt="Images of set work"/>)}
                 </div>
             </div>
             
