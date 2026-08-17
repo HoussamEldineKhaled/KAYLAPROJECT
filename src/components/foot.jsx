@@ -1,6 +1,6 @@
-import './Home.css'
+import './foot.css'
 
 function Foot(){
-    return(<footer><p>© {new Date().getFullYear()} KAS Extras · Kayla Slocumb · Editor - Sound Designer - Colorist</p></footer>)
+    return(<div className='copy-write'><p>© {new Date().getFullYear()} KAS Extras · Kayla Slocumb · Editor - Sound Designer - Colorist</p></div>)
 }
 export default Foot

@@ -83,6 +83,6 @@ li:hover .content{
 }
 
 .content .project-links:hover{
-    background-color: rgba(108, 109, 109, 0.548);
+    background-color: rgba(58, 59, 59, 0.548);
     border-radius: 20px;
 }

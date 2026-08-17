@@ -15,10 +15,12 @@ function Home() {
         <div className="homepage-detail">
             <div className="logo-buttons" style={{gridArea:'box-1'}}>
                 <img src={title}/>
-                <h5 className="client-name">Kayla Slocumb</h5>
-                <h5>Post-Production Artist</h5>
-                <p className="client-titles">Editor • Sound Designer • Colorist</p>
-                <button className="to-about-me">Meet the Artist</button>
+                <div className="names-titles">
+                    <h5 className="client-name">Kayla Slocumb</h5>
+                    <p className="client-titles">Post-Production Artist • Editor • Sound Designer • Colorist</p>
+                </div>
+                
+                <button className="to-about-me"><h3>Meet the Artist</h3></button>
             </div>
             <div className="editing-reel-container" style={{gridArea:'box-2'}}>
                 <div className="editing-reel-title"><span className="red-dot"></span><p className="reel-title"> Featured Reel </p></div>
@@ -27,7 +29,7 @@ function Home() {
                         <source></source>
                     </video>
                 </div>
-                <button className="projects-button">Check Out the Projects</button>
+                <button className="projects-button"><h4>Watch the Projects</h4></button>
             </div>
             <div className="photo-container" style={{gridArea: 'box-3'}}>
                 <h1>On set, in the timeline, and somewhere between the magic.</h1>
