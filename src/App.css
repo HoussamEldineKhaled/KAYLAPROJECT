@@ -4,5 +4,15 @@
 
 body {
     margin: 0;
-    background-color: rgb(28, 28, 28);
+    background-image: radial-gradient(circle at center, #000000 60%, #18111e 100%);
+}
+
+.red-dot {
+    background-image: radial-gradient(rgb(234, 165, 165), rgb(214, 116, 132), rgb(179, 95, 95));
+    width: 8px;
+    height: 8px;
+    position: relative;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0px 0px 7px pink;
 }
