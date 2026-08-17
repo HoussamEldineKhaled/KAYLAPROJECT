@@ -18,10 +18,10 @@ function About_Me(){
                     <img />
                 </div>
                 <div className="paragraph-container">
-                    <p></p>
-                    <p></p>
-                    <div className="quote"></div>
-                    <p></p>
+                    <p>Hello! My name is Kayla Slocumb, and I’m a Film and Television graduate from Savannah College of Art and Design’s Atlanta campus. My main focus is video editing, sound design/mixing, color grading, and writing.</p>
+                    <p>My passion began in high school when I took my first film class during my junior year. Over time, my love for film grew, and since coming to SCAD, I’ve gained hands-on experience both on set and off set during post-production, strengthening my creative and technical skills.</p>
+                    <div className="quote">I truly believe post-production is where the magic happens.</div>
+                    <p>In post, you can honor the director’s vision while also enhancing and expanding on it. That is the part I love: finding the rhythm, shaping the emotion, and helping the story become what it was always trying to be.</p>
                 </div>
             </div>
         <Foot/>
