@@ -32,6 +32,7 @@
     grid-auto-columns: 1fr;
     grid-template-areas: 
     "box1 box2";
+    gap: 1rem;
     margin: auto;
     width: 60%;
     min-width: 500px;
@@ -51,10 +52,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgba(67, 67, 67, 0.599);
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 10px;
 }
 .personal-intro-section  .photo-container img{
     width: 150px;
     height: 150px;
     border: 1px solid white;
+    border-radius: 10px;
+}
+
+.personal-intro-section .paragraph-container{
+    background-color: rgba(67, 67, 67, 0.599);
+    border: 1px solid rgb(146, 146, 146);
     border-radius: 10px;
 }
