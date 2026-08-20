@@ -1,70 +1,27 @@
-
-
 .title-section{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(127, 206, 255);
     margin: auto;
     width: 60%;
-    min-width: 500px;
-    color: whitesmoke;
-    font-family: Inter,
-                ui-sans-serif,
-                system-ui,
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                sans-serif;
-            ;
-    
+    color: aliceblue;
+    white-space: pre-wrap;
+}
+.title-section h1{
+    font-size: 5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.title-section .about-me-title{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
+.title-section h1 .first-name{
+    background: linear-gradient(to left, #34EDF3 , #F715AB);
+    text-shadow: #34EDF3,
+        #F715AB;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
-.personal-intro-section{
-    display: grid;
-    background-color: aquamarine;
-    grid-auto-columns: 1fr;
-    grid-template-areas: 
-    "box1 box2";
-    gap: 1rem;
-    margin: auto;
-    width: 60%;
-    min-width: 500px;
-    color: whitesmoke;
-    font-family: Inter,
-                ui-sans-serif,
-                system-ui,
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                sans-serif;
-            ;
+.title-section h1 .last-name{
+    background: linear-gradient(to left, #B5179E, #7209B7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent
 }
 
-.personal-intro-section .photo-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(67, 67, 67, 0.599);
-    border: 1px solid rgb(146, 146, 146);
-    border-radius: 10px;
-}
-.personal-intro-section  .photo-container img{
-    width: 150px;
-    height: 150px;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-.personal-intro-section .paragraph-container{
-    background-color: rgba(67, 67, 67, 0.599);
-    border: 1px solid rgb(146, 146, 146);
-    border-radius: 10px;
-}
